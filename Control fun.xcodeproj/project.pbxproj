@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1855727116CEBCC600647B10 /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1855727016CEBCC600647B10 /* apress_logo.png */; };
 		CE5D06C816CE67FE00CEAEAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D06C716CE67FE00CEAEAE /* UIKit.framework */; };
 		CE5D06CA16CE67FE00CEAEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D06C916CE67FE00CEAEAE /* Foundation.framework */; };
 		CE5D06CC16CE67FE00CEAEAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D06CB16CE67FE00CEAEAE /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1855727016CEBCC600647B10 /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apress_logo.png; sourceTree = "<group>"; };
 		CE5D06C316CE67FE00CEAEAE /* Control fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5D06C716CE67FE00CEAEAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE5D06C916CE67FE00CEAEAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +98,7 @@
 		CE5D06CE16CE67FE00CEAEAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1855727016CEBCC600647B10 /* apress_logo.png */,
 				CE5D06CF16CE67FE00CEAEAE /* Control fun-Info.plist */,
 				CE5D06D016CE67FE00CEAEAE /* InfoPlist.strings */,
 				CE5D06D316CE67FE00CEAEAE /* main.m */,
@@ -164,6 +167,7 @@
 				CE5D06DC16CE67FE00CEAEAE /* Default@2x.png in Resources */,
 				CE5D06DE16CE67FE00CEAEAE /* Default-568h@2x.png in Resources */,
 				CE5D06E416CE67FE00CEAEAE /* BIDViewController.xib in Resources */,
+				1855727116CEBCC600647B10 /* apress_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				CE5D06E916CE67FE00CEAEAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
