@@ -9,7 +9,6 @@
 #import "BIDViewController.h"
 
 @interface BIDViewController ()
-
 @end
 
 @implementation BIDViewController
@@ -19,6 +18,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.sliderLabel.text = @"50";
+    UIImage *buttonImageNormal = [UIImage imageNamed:@"whiteButton.png"];
+    UIEdgeInsets insets = UIEdgeInsetsMake(0, 12, 0, 12);
+    UIImage *strechableButtonImageNormal = [buttonImageNormal resizableImageWithCapInsets:insets];
+    [self.doSomethingButton setBackgroundImage:strechableButtonImageNormal forState:UIControlStateNormal];
+    UIImage *buttonImagePressed = [UIImage imageNamed:@"blueButton.png"];
+    UIImage *stretchableButtonImagePressed = [buttonImagePressed resizableImageWithCapInsets:insets];
+    [self.doSomethingButton setBackgroundImage:stretchableButtonImagePressed forState:UIControlStateHighlighted];
 }
 
 - (void)didReceiveMemoryWarning
